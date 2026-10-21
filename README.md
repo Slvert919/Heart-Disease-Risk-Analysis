@@ -51,17 +51,50 @@ Examined branch patterns and sensitivity to modeling assumptions.
 - Chest pain type and ST slope provided additional information for risk stratification.
 - Combining visualization with weighted scoring helped organize clinical risk factors into a decision-support framework.
 
-## ⚠️ Limitations
+## 📊 Project Visualizations
 
+### Power BI Decomposition Tree: Heart Disease Risk Factors
+![Power BI Decomposition Tree](Image.jpeg)
+
+This decomposition tree explores relationships between
+heart disease outcomes and clinical variables, including
+exercise-induced angina, ST slope, and Oldpeak groups.
+
+Exercise-induced angina emerged as an important
+first-level split, highlighting differences in
+observed heart disease prevalence between patient
+groups.
+
+### Power BI Decomposition Tree: Chest Pain Type and Age Groups
+
+![Heart Disease Risk Analysis by Chest Pain and Age](Image%201.jpeg)
+
+This Power BI decomposition tree explores how
+exercise-induced angina, chest pain type, and age
+groups relate to observed heart disease prevalence.
+
+The visualization highlights differences across
+patient subgroups and demonstrates how multiple
+clinical characteristics can be explored to
+identify patterns associated with cardiovascular risk.
+
+These findings are exploratory and do not establish
+causal relationships or provide a clinically
+validated prediction.
+
+## ⚠️ Limitations
 This analysis is exploratory and is not a clinically validated diagnostic tool. Results may be affected by dataset characteristics, model assumptions, and unmeasured factors. Clinical use would require additional validation and appropriate professional oversight.
 
 ## 🚀 Future Improvements
+Evaluate the model using additional datasets.
 
-- Evaluate the model using additional datasets.
-- Compare results with statistical and machine learning approaches.
-- Explore additional clinical predictors.
-- Improve visualization and reporting for healthcare audiences.
+Compare results with statistical and machine learning approaches.
+
+Explore additional clinical predictors.
+
+Improve visualization and reporting for healthcare audiences.
 
 ## 📌 Project Status
-
-Completed academic analysis. Supporting visualizations and documentation will be added to this repository.
+Completed academic data analytics project featuring
+Power BI decomposition trees, clinical risk factor
+analysis, and decision modeling techniques.
